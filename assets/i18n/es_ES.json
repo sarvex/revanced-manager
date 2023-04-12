@@ -19,7 +19,7 @@
         "updatesAvailable": "Actualizaciones disponibles",
         "noUpdates": "No hay actualizaciones disponibles",
         "WIP": "Trabajo en progreso...",
-        "noInstallations": "No hay aplicaciones parcheadas instaladas",
+        "noInstallations": "No tiene aplicaciones parcheadas en su dispositivo",
         "installed": "Instalado",
         "updateDialogTitle": "Actualizar Manager",
         "updateChangelogTitle": "Registro de cambios",
@@ -30,7 +30,7 @@
         "errorDownloadMessage": "No se pudo descargar la actualización",
         "errorInstallMessage": "No se pudo instalar la actualización",
         "noConnection": "No hay conexión a Internet",
-        "updatesDisabled": "La actualización de una app parcheada está deshabilitada. Re-parchea la app de nuevo."
+        "updatesDisabled": "Por ahora no puedes actualizar una app parcheada. Re-parchea la app de nuevo."
     },
     "applicationItem": {
         "patchButton": "Parchear",
@@ -56,7 +56,7 @@
         "noAppsLabel": "No se encontraron aplicaciones",
         "currentVersion": "Versión actual",
         "recommendedVersion": "Versión recomendada",
-        "anyVersion": "cualquiera"
+        "anyVersion": "cualquier versión"
     },
     "patchSelectorCard": {
         "widgetTitle": "Seleccionar parches",
@@ -66,7 +66,7 @@
     },
     "socialMediaCard": {
         "widgetTitle": "Redes sociales",
-        "widgetSubtitle": "¡Estamos en la red!"
+        "widgetSubtitle": "¡Encuéntranos en la red!"
     },
     "appSelectorView": {
         "viewTitle": "Selecciona una aplicación",
@@ -79,8 +79,11 @@
         "searchBarHint": "Buscar parches",
         "doneButton": "Listo",
         "recommended": "Recomendados",
+        "recommendedTooltip": "Seleccionar todos los parches recomendados",
         "all": "Todos",
+        "allTooltip": "Seleccionar todos los parches",
         "none": "Ninguno",
+        "noneTooltip": "Deseleccionar todos los parches",
         "loadPatchesSelection": "Cargar selección de parches",
         "noSavedPatches": "No hay parches guardados para la app seleccionada\nPresione Hecho para guardar la selección actual.",
         "noPatchesFound": "No se encontraron parches para la aplicación seleccionada",
@@ -111,7 +114,7 @@
         "widgetTitle": "Configuración",
         "appearanceSectionTitle": "Apariencia",
         "teamSectionTitle": "Equipo",
-        "infoSectionTitle": "Info",
+        "infoSectionTitle": "Información",
         "advancedSectionTitle": "Avanzado",
         "logsSectionTitle": "Registros",
         "darkThemeLabel": "Modo oscuro",
@@ -122,7 +125,7 @@
         "englishOption": "Inglés",
         "sourcesLabel": "Fuentes",
         "sourcesLabelHint": "Configure sus fuentes personalizadas",
-        "hostRepositoryLabel": "Repositorio API",
+        "hostRepositoryLabel": "Repositorio de la API",
         "orgPatchesLabel": "Organización de los parches",
         "sourcesPatchesLabel": "Fuente de los parches",
         "orgIntegrationsLabel": "Organización de integraciones",
@@ -145,11 +148,10 @@
         "exportSectionTitle": "Importar y Exportar",
         "aboutLabel": "Acerca de",
         "snackbarMessage": "Copiado al portapapeles",
-        "sentryLabel": "Registro Sentry",
-        "sentryHint": "Enviar registros anónimos para ayudarnos a mejorar ReVanced Manager",
         "restartAppForChanges": "Reinicie la app para aplicar los cambios",
         "deleteKeystoreLabel": "Eliminar keystore",
         "deleteKeystoreHint": "Eliminar el keystore usado para firmar la app",
+        "deleteKeystoreDialogText": "¿Está seguro que desea eliminar el keystore usado para firmar aplicaciones parcheadas?",
         "deletedKeystore": "Keystore eliminado",
         "deleteTempDirLabel": "Borrar archivos temporales",
         "deleteTempDirHint": "Eliminar archivos temporales no utilizados",
@@ -191,7 +193,7 @@
     },
     "contributorsView": {
         "widgetTitle": "Contribuidores",
-        "patcherContributors": "Contribuidores de los parches",
+        "patcherContributors": "Contribuidores del parcheador",
         "patchesContributors": "Contribuidores de los parches",
         "integrationsContributors": "Contribuidores de las integraciones",
         "cliContributors": "Contribuidores del CLI",
